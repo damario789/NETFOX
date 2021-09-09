@@ -20,7 +20,7 @@ function Home() {
 
   useEffect(() => {
     dispatch(fetchMovies(page));
-  }, [page]);
+  }, [dispatch, page]);
 
   function handleDetails(movie) {
     history.push({

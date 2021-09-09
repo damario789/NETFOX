@@ -21,7 +21,9 @@ function Navbar() {
   return (
     <div className={`nav ${show && "nav__black"} ${!show && "nav--fadetop"}`}>
       <div className="nav__contents">
-        <img className="nav__logo" src={Logo} alt="" />
+        <Link to="/">
+          <img className="nav__logo" src={Logo} alt="" />
+        </Link>
 
         <img src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png" alt="" className="nav__avatar rounded" />
 

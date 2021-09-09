@@ -14,7 +14,7 @@ function DetailsPage() {
 
   useEffect(() => {
     dispatch(fetchSimilarMovies(location.state.movie.id));
-  }, [location.state.movie.id]);
+  }, [dispatch, location.state.movie.id]);
 
   function handleDetails(movie) {
     history.push({
