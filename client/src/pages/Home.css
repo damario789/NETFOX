@@ -1,0 +1,23 @@
+.container__home {
+  max-width: 1360px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card__container {
+  width: 20%;
+  padding: 16px 10px;
+}
+
+.category_title {
+  max-width: 1360px;
+  padding: 16px 0 0 0;
+  margin: 0 auto;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 10px;
+}
